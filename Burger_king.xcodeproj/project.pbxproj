@@ -12,6 +12,14 @@
 		3CF213BA1E67468A008B50BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF213B81E67468A008B50BB /* Main.storyboard */; };
 		3CF213BC1E67468A008B50BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF213BB1E67468A008B50BB /* Assets.xcassets */; };
 		3CF213BF1E67468A008B50BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF213BD1E67468A008B50BB /* LaunchScreen.storyboard */; };
+		3CF213C91E674702008B50BB /* PagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF213C81E674702008B50BB /* PagerController.swift */; };
+		3CF213D01E674710008B50BB /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF213CA1E674710008B50BB /* OffersViewController.swift */; };
+		3CF213D11E674710008B50BB /* BurgersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF213CB1E674710008B50BB /* BurgersViewController.swift */; };
+		3CF213D21E674710008B50BB /* ShakesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF213CC1E674710008B50BB /* ShakesViewController.swift */; };
+		3CF213D31E674710008B50BB /* BiryaniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF213CD1E674710008B50BB /* BiryaniViewController.swift */; };
+		3CF213D41E674710008B50BB /* SnacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF213CE1E674710008B50BB /* SnacksViewController.swift */; };
+		3CF213D51E674710008B50BB /* universalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF213CF1E674710008B50BB /* universalVar.swift */; };
+		3CF213D71E67471A008B50BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF213D61E67471A008B50BB /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		3CF213BB1E67468A008B50BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF213BE1E67468A008B50BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CF213C01E67468A008B50BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF213C81E674702008B50BB /* PagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerController.swift; sourceTree = "<group>"; };
+		3CF213CA1E674710008B50BB /* OffersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		3CF213CB1E674710008B50BB /* BurgersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurgersViewController.swift; sourceTree = "<group>"; };
+		3CF213CC1E674710008B50BB /* ShakesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakesViewController.swift; sourceTree = "<group>"; };
+		3CF213CD1E674710008B50BB /* BiryaniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiryaniViewController.swift; sourceTree = "<group>"; };
+		3CF213CE1E674710008B50BB /* SnacksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnacksViewController.swift; sourceTree = "<group>"; };
+		3CF213CF1E674710008B50BB /* universalVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = universalVar.swift; sourceTree = "<group>"; };
+		3CF213D61E67471A008B50BB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,38 @@
 		3CF213B31E67468A008B50BB /* Burger_king */ = {
 			isa = PBXGroup;
 			children = (
+				3CF213C71E6746F1008B50BB /* TabClasses */,
+				3CF213C61E6746E8008B50BB /* Library */,
 				3CF213B41E67468A008B50BB /* AppDelegate.swift */,
 				3CF213B61E67468A008B50BB /* ViewController.swift */,
+				3CF213D61E67471A008B50BB /* Extensions.swift */,
 				3CF213B81E67468A008B50BB /* Main.storyboard */,
 				3CF213BB1E67468A008B50BB /* Assets.xcassets */,
 				3CF213BD1E67468A008B50BB /* LaunchScreen.storyboard */,
 				3CF213C01E67468A008B50BB /* Info.plist */,
 			);
 			path = Burger_king;
+			sourceTree = "<group>";
+		};
+		3CF213C61E6746E8008B50BB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				3CF213C81E674702008B50BB /* PagerController.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		3CF213C71E6746F1008B50BB /* TabClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3CF213CA1E674710008B50BB /* OffersViewController.swift */,
+				3CF213CB1E674710008B50BB /* BurgersViewController.swift */,
+				3CF213CC1E674710008B50BB /* ShakesViewController.swift */,
+				3CF213CD1E674710008B50BB /* BiryaniViewController.swift */,
+				3CF213CE1E674710008B50BB /* SnacksViewController.swift */,
+				3CF213CF1E674710008B50BB /* universalVar.swift */,
+			);
+			name = TabClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +177,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF213C91E674702008B50BB /* PagerController.swift in Sources */,
+				3CF213D01E674710008B50BB /* OffersViewController.swift in Sources */,
+				3CF213D51E674710008B50BB /* universalVar.swift in Sources */,
 				3CF213B71E67468A008B50BB /* ViewController.swift in Sources */,
 				3CF213B51E67468A008B50BB /* AppDelegate.swift in Sources */,
+				3CF213D71E67471A008B50BB /* Extensions.swift in Sources */,
+				3CF213D31E674710008B50BB /* BiryaniViewController.swift in Sources */,
+				3CF213D11E674710008B50BB /* BurgersViewController.swift in Sources */,
+				3CF213D21E674710008B50BB /* ShakesViewController.swift in Sources */,
+				3CF213D41E674710008B50BB /* SnacksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
